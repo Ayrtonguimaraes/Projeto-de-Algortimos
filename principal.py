@@ -70,6 +70,7 @@ def iniciar_interface(G):
     janela.title("Árvore Geradora Mínima")
 
     # Carrega a imagem como ícone
+    #Caminho da imagem deve ser alterado para rodar em outras máquinas
     icone = PhotoImage(file='C:\\Users\\ayrto\\AppData\\Roaming\\JetBrains\\PyCharmCE2023.3\\scratches\\img.png')
     janela.iconphoto(False, icone)
 
@@ -83,6 +84,7 @@ def iniciar_interface(G):
     botao = Button(janela, text="Ver Árvore Geradora Mínima", command=lambda: exibir_agm(G), bg='#add8e6', fg='black', padx=10, pady=5)
     botao.pack(side='top', pady=10)
 
+    # Caminho da imagem deve ser alterado para rodar em outras máquinas
     imagem_rato = PhotoImage(file='C:\\Users\\ayrto\\AppData\\Roaming\\JetBrains\\PyCharmCE2023.3\\scratches\\img_2.png')
     label_imagem_rato = Label(janela, image=imagem_rato, bg='#f0f0f0')
     label_imagem_rato.image = imagem_rato
@@ -92,6 +94,7 @@ def iniciar_interface(G):
 
 # Chama a função 'criar_grafo' para converter os dados do DataFrame em um objeto de grafo 'G' usando NetworkX, baseando-se nas arestas e pesos definidos nos dados.
 if __name__ == "__main__":
+    # Caminho da imagem deve ser alterado para rodar em outras máquinas
     caminho_dados = "C:\\Users\\ayrto\\Downloads\\bn-mouse_visual-cortex_2_updated.csv"
     df = pd.read_csv(caminho_dados)
 
