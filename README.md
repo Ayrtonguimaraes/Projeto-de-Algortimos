@@ -19,4 +19,4 @@ geradora mínima. A base de dados escolida foi da rede neural do cortex visual d
 <img width="1280" alt="Demonstração1" src="https://github.com/Ayrtonguimaraes/Projeto-de-Algortimos/assets/131915450/7fd8a3f6-f241-474b-9248-4d9930e9b0f4">
 <img width="1280" alt="Demonstração2" src="https://github.com/Ayrtonguimaraes/Projeto-de-Algortimos/assets/131915450/ebf0899e-7988-42d4-8a4f-2dbd539b10cf">
 <img width="1014" alt="Demonstração3" src="https://github.com/Ayrtonguimaraes/Projeto-de-Algortimos/assets/131915450/d2120430-fa2b-4295-b530-dcbfa86c0d8c">
-## Link para o relatório: https://docs.google.com/document/d/1q1j5K73XCDm4wSTFFZKt-dXFTAUw-6QIR2uDHgOOoTY/edit?usp=sharing
+ ##Link para o relatório: https://docs.google.com/document/d/1q1j5K73XCDm4wSTFFZKt-dXFTAUw-6QIR2uDHgOOoTY/edit?usp=sharing
