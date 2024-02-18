@@ -48,7 +48,7 @@ def encontrar_agm(df):
 # Função para exibir a árvore geradora mínima
 def exibir_agm(G):
     pos = nx.spring_layout(G)  # Layout para os nodos
-    plt.figure(figsize=(10, 10))
+    plt.figure(figsize=(12, 8))
     nx.draw_networkx_nodes(G, pos, node_size=700, node_color='skyblue', alpha=0.6)
     nx.draw_networkx_edges(G, pos, width=2, alpha=0.5, edge_color='gray')
     nx.draw_networkx_labels(G, pos, font_size=10, font_family='sans-serif')
@@ -60,10 +60,14 @@ def iniciar_interface(G):
     janela = Tk()
     janela.title("Árvore Geradora Mínima")
 
-    janela.geometry('420x350')
+    # Carrega a imagem como ícone
+    icone = PhotoImage(file='C:\\Users\\ayrto\\AppData\\Roaming\\JetBrains\\PyCharmCE2023.3\\scratches\\img.png')
+    janela.iconphoto(False, icone)
+
+    janela.geometry('1000x720')
     janela.configure(bg='#f0f0f0')
 
-    texto_descricao = "Esta é a base de dados do córtex visual de um rato."
+    texto_descricao = "Este é um visualizador de grafo, utilizando o algoritmo de kruskal para fazer a árvore geradora mínima."
     label_intro = Label(janela, text=texto_descricao, font=("Arial", 12, "bold"), bg='#f0f0f0', justify='left')
     label_intro.pack(side='top', fill='x', padx=10, pady=10)
 
